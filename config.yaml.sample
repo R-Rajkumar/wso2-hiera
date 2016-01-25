@@ -26,8 +26,8 @@ servers:
     cpu: 1
     enabled: false
 puppet:
-  hiera_path: /home/akila/Documents/WSO2/WSO2-GitHub/Puppet-Modules.git/hiera
-  manifests_path: /home/akila/Documents/WSO2/WSO2-GitHub/Puppet-Modules.git/manifests
-  module_path: ['/home/akila/Documents/WSO2/WSO2-GitHub/Puppet-Modules.git', '/etc/puppet/modules']
-  hiera_config_path: /home/akila/Documents/WSO2/WSO2-GitHub/Puppet-Modules.git/hiera/hiera.yaml
+  hiera_path: /home/rajkumar/projects/raj/git/wso2-hiera/hiera
+  manifests_path: /home/rajkumar/projects/wso2/public/git/puppet-modules/manifests
+  module_path: ['/home/rajkumar/projects/wso2/public/git/puppet-modules', '/etc/puppet/modules']
+  hiera_config_path: /home/rajkumar/projects/raj/git/wso2-hiera/hiera/hiera.yaml
   working_directory: /puppet-hiera
